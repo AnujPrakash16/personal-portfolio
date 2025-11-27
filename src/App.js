@@ -21,13 +21,21 @@ function Navbar(){
     justifyContent: 'center',
     alignItems: 'center',
     boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-    zIndex: 1000
+    zIndex: 1000,
+    flexDirection :window.innerWidth <768 ? 'column' :'row',
+  };
+
+  const linksContainerStyle = {
+    display: 'flex',
+    flexWrap: 'wrap',  // Wrap on small screens
+    gap: '1.5rem',
+    justifyContent: 'center'
   };
 
   const linkStyle = (isHovered) => ({
     color: isHovered ? '#3498db' : 'white',  // Blue on hover
     textDecoration: 'none',
-    margin: '0 1.5rem',
+    //margin: '1.5rem',
     fontSize: '1.1rem',
     fontWeight: '500',
     transition: 'color 0.3s ease',

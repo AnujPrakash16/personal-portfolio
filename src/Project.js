@@ -1,7 +1,8 @@
 // Project.js (or Projects.js)
-export default Project(
+export default function Project()
   {
-    return(<section id="projects" style={{ 
+    return(
+      <section id="projects" style={{ 
   minHeight: '100vh', 
   padding: '4rem 2rem',
   backgroundColor: '#f8f9fa'

@@ -50,7 +50,7 @@
           }}>
             View Live
           </a>
-          <a href="[YOUR GITHUB REPO]" target="_blank" rel="noopener noreferrer" style={{
+          <a href="https://github.com/AnujPrakash16/restaurant-website1.git" target="_blank" rel="noopener noreferrer" style={{
             padding: '0.8rem 2rem',
             backgroundColor: '#2c3e50',
             color: 'white',

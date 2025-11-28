@@ -1,5 +1,7 @@
 // Project.js (or Projects.js)
-<section id="projects" style={{ 
+export default Project(
+  {
+    return(<section id="projects" style={{ 
   minHeight: '100vh', 
   padding: '4rem 2rem',
   backgroundColor: '#f8f9fa'
@@ -65,3 +67,5 @@
     </div>
   </div>
 </section>
+           )
+}

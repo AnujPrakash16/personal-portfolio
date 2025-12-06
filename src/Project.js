@@ -64,6 +64,26 @@ export default function Project()
       </div>
     </div>
 
+{/* PROJECT 4: MOBILE APP */}
+<div style={{...projectCardStyle}}>
+  <h3>BizApp - Business Mobile App</h3>
+  <p>
+    Complete mobile application template for local businesses. 
+    Features: Business info, services, gallery, contact with maps, 
+    WhatsApp integration.
+  </p>
+  <div style={{tags}}>
+    <span>React Native</span>
+    <span>Expo</span>
+    <span>Firebase</span>
+    <span>Mobile App</span>
+  </div>
+  <div style={{buttons}}>
+    <a href="https://expo.dev/accounts/anujprakash/projects/BizApp/builds/f6629fca-de17-42ef-9dca-240dc848e262">Download APK</a>
+    <a href="https://github.com/AnujPrakash16/BizApp.git">GitHub</a>
+  </div>
+</div>
+
     {/* PROJECT 2: GROCERY STORE */}
     <div style={{
       backgroundColor: 'white',

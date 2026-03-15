@@ -4,7 +4,7 @@ function Contact() {
     { label: 'Email', value: 'anujprakash16@gmail.com', icon: '📧', link: 'mailto:anujprakash16@gmail.com' },
     //{ label: 'Phone', value: '+91 XXXXX XXXXX', icon: '📱', link: 'tel:+91XXXXXXXXXX' },
     { label: 'Location', value: 'Ranchi,Jharkhand India', icon: '📍', link: null },
-    { label: 'GitHub', value: 'github.com/Anujprakash16', icon: '💻', link: 'https://github.com/Anujprakash16' },
+    { label: 'GitHub', value: 'github.com/AnujPrakash16', icon: '💻', link: 'https://github.com/AnujPrakash16' },
     { label: 'LinkedIn', value: 'linkedin.com/in/anuj-prakash-16a785392', icon: '💼', link: 'https://linkedin.com/in/anuj-prakash-16a785392' }
   ];
 

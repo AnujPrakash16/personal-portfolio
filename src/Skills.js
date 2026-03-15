@@ -1,6 +1,12 @@
 // Skills.js
 function Skills() {
-    const skillsData = 
+    const skillsData = [
+        { "name": "Next.js", "level": "Intermediate", "icon": "▲" },
+  { "name": "shadcn/ui", "level": "Intermediate", "icon": "🧩" },
+  { "name": "NextAuth.js", "level": "Intermediate", "icon": "🔐" },
+  { "name": "Tailwind CSS", "level": "Intermediate", "icon": "🎨" },
+  { "name": "Redux", "level": "Intermediate", "icon": "🟣" },
+  { "name": "JWT", "level": "Intermediate", "icon": "🔑" },
         { "name": "MongoDB", "level": "Intermediate", "icon": "🍃" },
   { "name": "Express.js", "level": "Intermediate", "icon": "🚂" },
   { "name": "Node.js", "level": "Intermediate", "icon": "🟢" },

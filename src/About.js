@@ -11,9 +11,7 @@ function About() {
         </h2>
         <div style={{ maxWidth: '800px', margin: '0 auto', lineHeight: '1.8' }}>
           <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>
-            I'm a React Native and Web Developer from Ranchi,Jharkhand. 
-            I recently completed my React Native training and I'm passionate 
-            about building practical, user-friendly applications.
+            Detail-oriented MERN Stack Developer with a solid foundation in Computer Science Engineering. Specialized in building production-ready web applications using MongoDB, Express.js, React, and Node.js. Experienced in integrating AI tools and developing cross-platform mobile solutions with React Native. Committed to writing secure, scalable code and staying at the forefront of AI-driven development.
           </p>
           <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>
             With a B.Tech in Computer Science (2015), I've spent the last year 

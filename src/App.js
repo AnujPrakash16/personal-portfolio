@@ -1,60 +1,63 @@
-//import logo from './logo.svg';
 import './App.css';
 
 import About from './About'
-import Project from './Project';
-import Skills from './Skills';
-import Contact from './Contact';
-import React from 'react';
-import Home from './Home';
+import Project from './Project'
+import Skills from './Skills'
+import Contact from './Contact'
+import React from 'react'
+import Home from './Home'
 
+function Navbar() {
 
+  const [hoveredLink, setHoveredLink] = React.useState(null)
 
-function Navbar(){
-  const [hoveredLink, setHoveredLink] = React.useState(null);
   const navStyle = {
-    position: 'left',
+    position: 'sticky',
     top: 0,
-    backgroundColor: '#2c3e50',  // Dark blue-gray
+    backgroundColor: '#2c3e50',
     padding: '1rem 2rem',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
     zIndex: 1000,
-    flexDirection :window.innerWidth <768 ? 'column' :'row',
-  };
+    flexDirection: window.innerWidth < 768 ? 'column' : 'row'
+  }
 
   const linksContainerStyle = {
     display: 'flex',
-    flexWrap: 'wrap',  // Wrap on small screens
+    flexWrap: 'wrap',
     gap: '1.5rem',
     justifyContent: 'center'
-  };
+  }
 
   const linkStyle = (isHovered) => ({
-    color: isHovered ? '#3498db' : 'white',  // Blue on hover
+    color: isHovered ? '#3498db' : 'white',
     textDecoration: 'none',
-    //margin: '1.5rem',
     fontSize: '1.1rem',
     fontWeight: '500',
     transition: 'color 0.3s ease',
     cursor: 'pointer'
-  });
+  })
 
   const logoStyle = {
     color: 'white',
     fontSize: '1.5rem',
     fontWeight: 'bold',
-    letterSpacing: '1px'
-  };
-  const links = ['home', 'about', 'skills', 'projects', 'contact'];
-  return(
+    letterSpacing: '1px',
+    marginBottom: '0.5rem'
+  }
+
+  const links = ['home', 'about', 'skills', 'projects', 'contact']
+
+  return (
     <nav style={navStyle}>
-    <div style={logoStyle}></div>
-    <div>
-    {links.map(link => (
-          <a 
+      
+      <div style={logoStyle}>Portfolio</div>
+
+      <div style={linksContainerStyle}>
+        {links.map((link) => (
+          <a
             key={link}
             href={`#${link}`}
             style={linkStyle(hoveredLink === link)}
@@ -65,29 +68,25 @@ function Navbar(){
           </a>
         ))}
       </div>
+
     </nav>
-  );
+  )
 }
 
 function App() {
   return (
     <div className="App">
-      
-        <Navbar />
-       
 
-        <Home/>
-        
-        <About/>
-        <Skills/>
-        <Project/>
-        <Contact/>
-        
-       
-    
+      <Navbar />
+
+      <Home />
+      <About />
+      <Skills />
+      <Project />
+      <Contact />
+
     </div>
-  );
+  )
 }
 
-
-export default App;
+export default App

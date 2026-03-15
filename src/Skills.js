@@ -1,6 +1,10 @@
 // Skills.js
 function Skills() {
-    const skillsData = [
+    const skillsData = 
+        { "name": "MongoDB", "level": "Intermediate", "icon": "🍃" },
+  { "name": "Express.js", "level": "Intermediate", "icon": "🚂" },
+  { "name": "Node.js", "level": "Intermediate", "icon": "🟢" },
+
       { name: 'React Native', level: 'Intermediate', icon: '📱' },
     { name: 'React.js', level: 'Intermediate', icon: '⚛️' },
     { name: 'JavaScript', level: 'Intermediate', icon: '💛' },
